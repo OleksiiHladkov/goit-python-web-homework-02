@@ -18,4 +18,4 @@ RUN pip install -r requirements.txt
 EXPOSE 5000
 
 # Запустимо наш застосунок всередині контейнера
-ENTRYPOINT ["python", "catbook/main.py"]
+ENTRYPOINT ["python", "run_catbook.py"]
